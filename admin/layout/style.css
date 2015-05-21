@@ -1,0 +1,123 @@
+/* holds templates */
+div.main_area {
+	width: 100%;
+	min-height: 300px;
+	margin: auto;
+	overflow:hidden;
+}
+div.content {
+	margin: auto;
+	background: #f9f9f9;
+	overflow:hidden;
+	padding: 8px;
+}
+/* menu */
+div.menu_1_cont {
+	background: #C62020;
+	border-top: 1px solid #B21C14;
+	border-bottom: 1px solid #B21C14;
+}
+div.menu_1_item:hover {
+	
+	background: #fff;
+	color: #C62020;
+}
+div.path {
+	background: #e2e2e2;
+	
+	color: #CD842A;
+	font-size: 130%;
+	margin: -8px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 8px;
+	min-height: 15px;
+	overflow: hidden;
+}
+/*locale*/
+div.loc_cont {
+	float: right;
+}
+div.loc_item {
+	float: left;
+	margin-right: 15px;
+	min-width: 40px;
+	height: 24px;
+	padding: 3px;
+}
+div.loc_sel {
+	background: #C62020;
+	
+}
+img.flag {
+	width: 40px;
+	height: 24px;
+}
+
+div.list_item {
+	background: #d3e1ea;
+	border: 1px solid #87939c;
+	border-radius: 8px;
+	margin: auto;
+	margin-bottom: 5px;
+	font-size: 120%;
+	
+	width: 95%;
+	overflow: hidden;
+}
+div.list_item span.main {
+	float: left;
+	
+	width: 80%;
+	padding: 6px;
+}
+.rbutton {
+	float: right;
+	
+	padding: 6px;
+	margin-right: 5px;
+}
+div.list_button {
+	background: #d3e1ea;
+	border: 1px solid #87939c;
+	border-radius: 8px;
+	width: 150px;
+	margin: 3px;
+	margin-top: 15px;
+	font-size: 120%;
+	padding: 6px;
+}
+div.header_input {
+	margin: 8px;
+}
+div.body_input {
+	margin: 8px;
+}
+span.header {
+	font-size: 140%;
+	
+}
+div.prodimg {
+	background: #f0f0f0;
+	overflow: hidden;
+	margin: 8px;
+}
+div.prodimg span {
+	display:block;
+	font-size: 140%;
+	width: 100%;
+	
+}
+div.imgstrip {
+	width: 98%;
+	min-height: 85px;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+div.img_item {
+	border: 1px solid #000;
+	margin: 3px;
+	width: 85px;
+	height: 85px;
+}
+

@@ -1,0 +1,5 @@
+AuthName "Uplink Editor"
+AuthType Basic
+AuthUserFile /var/www/web/editor/demo/admin/.htpasswd
+AuthGroupFile /dev/null
+require valid-user

@@ -1,0 +1,46 @@
+body {
+	font-size: 140%;
+	margin: 0;
+	border: 0;
+	height: 100%;
+}
+
+div.ribbon {
+	width: 100%;
+	min-height: 400px;
+	margin: auto;
+	margin-bottom: 45px;
+	overflow:hidden;
+	background: #f9f9f9;
+	border: 1px solid #000;
+	border-top: 0px solid #000;
+	border-radius: 0px 0px 8px 8px;
+}
+div.menu_1_item {
+	
+	font-size: 160%;
+	
+}
+/* path */
+div.path {
+	
+	font-size: 130%;
+	
+}
+
+/*products */
+div.cat_list {
+	
+	border: 3px solid #CD842A;
+	border-radius: 8px;
+	margin: 6px;
+	
+}
+
+div.prod_list {
+	
+	border: 2px solid #CD842A;
+	border-radius: 8px;
+	margin: 6px;
+	
+}
