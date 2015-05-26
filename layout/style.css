@@ -40,7 +40,7 @@ div.topcontainer {
 	min-height: 50px;
 	margin: auto;
 	overflow:hidden;
-	background: #000fff;
+	background: #f0f0f0;
 	
 }
 div.logo {
@@ -133,7 +133,8 @@ span.header {
 /* holds content of items */
 .text {
 	min-height: 150px;
-	padding: 6px;
+	padding: 15px;
+	
 }
 .text img {
 	padding: 10px;
@@ -145,6 +146,7 @@ div.prod_list {
 	float: left;
 	border-radius: 8px;
 	margin: 4px;
+	
 	overflow: hidden;
 }
 .cat_spec {
@@ -154,9 +156,9 @@ div.prod_list {
 	width: 24%;
 }
 .prod_spec {
-	height: 145px;
-	width: 145px;
-	border: 1px solid #CD842A;
+	
+	width: 98%;
+	
 }
 div.imgloop {
 	float: left;
@@ -178,10 +180,12 @@ span.prod_head {
 	width: 100%;
 	font-size: 130%;
 	margin: auto;
+	padding: 5px;
 	
 }
 span.prod_head_spec {
-	font-size: 120%;
+	font-size: 160%;
+	text-align: left;
 }
 
 

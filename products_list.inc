@@ -31,26 +31,70 @@ foreach (glob("$dir*", GLOB_ONLYDIR) as $filename) {
 		
 		
 	}
+	
+	
+	
 }
 $arrayLength = count($filelist);
 natcasesort( $filelist );
 foreach ($filelist as $fitem => $fheader) {
+	
+	/*test stuff*/
+	/* check for head file */
+	if (file_exists($dir.$fitem."/".$loc.".head")) {
+		$header = file_get_contents($dir.$fitem."/".$loc.".head", NULL, NULL, 0);
+		
+	} else {
+		$header = "Empty";
+		
+	}
+	
+	/* check for inc file */
+	if (file_exists($dir.$fitem."/".$loc.".inc")) {
+		
+		$content = file_get_contents($dir.$fitem."/".$loc.".inc", NULL, NULL, 0);
+	} else {
+		
+		$content =  "Empty";
+	}
+	
     echo "
     
-    	<a href='index.php?template=".$section."_view&section=$section&cat=$cat&item=$fitem'>
+    	
 			<div class='prod_list prod_spec'>
     			<span class='prod_head prod_head_spec'>$fheader</span>
-    			<div>
+    			
     				";
-					if (file_exists($imgdir.$fitem."/1_thumb.png")) {
-						$img = $imgdir.$fitem."/1_thumb.png";
-    					echo "<img class='thumb' src='$img?=".filemtime($img)."' alt=''>";
-    				}
+					
 			echo "
-    			</div>
+    			
     		</div>
-		</a>
+		
 		";
+		/*new*/
+		echo "
+		<div class='text'>
+			$content
+		</div>
+		<div class='img_cont'>
+			
+			";
+				
+				foreach (glob("$imgdir$fitem/*_thumb.png") as $img) {
+						$imglink = str_replace("thumb","big",$img);
+						
+	    				echo "
+	    					<a href='plain.php?template=zoom_view&section=$section&cat=$cat&item=$item&currimg=$imglink'>
+		    					<div class='img_item'>
+		    						<img class='thumb_big' src='$img?=".filemtime($img)."' alt=''>
+		    					</div>
+	    					</a>
+	    				";
+	    				}
+    		echo "	
+    		
+    	</div>
+";
 }
 
 
