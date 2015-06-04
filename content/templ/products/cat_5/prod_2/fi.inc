@@ -1,0 +1,1 @@
+Yleiskuvia osastoltamme, Wanha Satama 2012.

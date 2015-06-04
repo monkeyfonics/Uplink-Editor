@@ -25,7 +25,7 @@ $filelist = array();
 foreach (glob("$dir*", GLOB_ONLYDIR) as $filename) {
 	$item = basename($filename, ".inc");
 	if (file_exists($dir.$item."/".$loc.".head")) {
-		$filelist[$item] = file_get_contents($dir.$item."/".$loc.".head", NULL, NULL, 0, 15);
+		$filelist[$item] = file_get_contents($dir.$item."/".$loc.".head", NULL, NULL, 0, 25);
 		
 	} else {
 		
@@ -59,7 +59,7 @@ foreach ($filelist as $fitem => $fheader) {
 	}
 	
     echo "
-    
+    	<div class='prod_wrap'>
     	
 			<div class='prod_list prod_spec'>
     			<span class='prod_head prod_head_spec'>$fheader</span>
@@ -94,6 +94,7 @@ foreach ($filelist as $fitem => $fheader) {
     		echo "	
     		
     	</div>
+    </div>
 ";
 }
 

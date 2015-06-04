@@ -29,6 +29,7 @@ foreach (glob($dir.'*', GLOB_ONLYDIR) as $category) {
 	
 	
 	echo "
+		<div class='prod_cont'>
     	<a href='index.php?template=".$section."_list&section=$section&cat=$cate'>
 			<div class='prod_list cat_spec'>
     			<span class='prod_head cat_head_spec'>$header</span>
@@ -49,6 +50,7 @@ foreach (glob($dir.'*', GLOB_ONLYDIR) as $category) {
     			</div>
     		</div>
 		</a>
+		</div>
 		";
 }
 

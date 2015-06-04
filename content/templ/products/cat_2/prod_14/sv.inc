@@ -1,0 +1,2 @@
+SPEGEL, sengustaviansk 1790-tal (otydlig hallst&auml;mpel), f&ouml;rgylld, bronserad och bem&aring;lad, &ouml;verdel med inf&auml;lld gravyr f&ouml;rset ruiner, spegelglaset 1800-tal, h&ouml;jd: 170, bredd: 70 cm.<br />
+1900 e

@@ -1,1 +1,2 @@
-Empty
+SKRIVBORD, empire, 1800-talets f&ouml;rsta h&auml;lft, ljusm&aring;lat (senare f&auml;rg) i sargen en l&aring;da med funktionerandel&aring;s. Dekor i pastellage. Bredd 108, djup 66, h&ouml;jd 76 cm.<br />
+1250 e

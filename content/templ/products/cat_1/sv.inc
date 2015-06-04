@@ -1,0 +1,1 @@
+Rokoko, halmgul originalf&auml;rg, h&ouml;jd 23 cm. 230 &euro;

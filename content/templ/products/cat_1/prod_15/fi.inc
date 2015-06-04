@@ -1,0 +1,2 @@
+SOHVA, my&ouml;h&auml;iskustavilainen, 17/1800-vaihde, alkuper&auml;isv&auml;ri. Sign. Carl Johan Wadstr&ouml;m 1758-1816 (CIWS). Patja ja tyynyt alkuper&auml;iset. Pituus: 240, kork: 90, syv: 75 cm. Ei verhoiltu.<br />
+2900 e

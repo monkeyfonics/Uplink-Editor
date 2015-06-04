@@ -1,5 +1,5 @@
 <?php
 	/*languages */
-	$langlist = array("en", "sv", "fi");
-	$websitename = "Uplink Editor";
+	$langlist = array("fi", "sv");
+	$websitename = "Schulman";
 ?>

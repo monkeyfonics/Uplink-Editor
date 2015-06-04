@@ -1,0 +1,2 @@
+RUOKAV&Auml;LINESARJA, hopeaa, Ruotsi 1950-60-luku. Mallin nimi &quot;Birgitta&quot; (Kuningas Kaarle XVI Kustaan siskon mukaan nimitetty), 100 osaa, erikokoisia haarukoita, lusikoita, veitsej&auml; ja ottimia. Hyv&auml;kuntoiset, ei graveerauksia. S&auml;ilytyspusseja, (mustaa samettia), seuraa mukana.<br />
+3000 e

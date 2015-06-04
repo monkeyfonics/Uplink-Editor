@@ -1,0 +1,1 @@
+Kynttil&auml;njalkapari, Saksa ennen 1920, kork 20, hinta 220 &euro;. Kynttil&auml;njalkapari, Saksa ennen 1920, kork 10, hinta 160 &euro;. Hedelm&auml;kori, KPM Berlin, diam 24, hinta 180&euro;.

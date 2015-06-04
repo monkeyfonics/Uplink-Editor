@@ -1,0 +1,2 @@
+MATSERVIS 74 delar, Bavaria (Meissen-typ) 1900-talets mitt. Rokokoprofilerad med polykroma blomstermotiv. F&ouml;rgyllda kanter..Flata och djupa tallrikar i olika storlekar, sk&aring;lar, fat, terriner och s&aring;ssk&aring;lar.mm &nbsp;<br />
+750e

@@ -1,0 +1,2 @@
+BESTICKSERIE, silver, 100 delar, Sverige 1950-60-tal, modell &quot;Birgitta&quot; (efter Konung Carl XVI Gustafs syster),skedar, gafflar, knivar, slevar mm i olika storlekar. Gott skick, ej graverade. F&ouml;rvaringsp&aring;sar i svart sammet medf&ouml;ljer.<br />
+3000 e

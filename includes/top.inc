@@ -5,7 +5,7 @@ $loc = $_SESSION['lang'];
 			<a href='$sitepath'>
 				<div class='logo'>
 					
-						<img src='layout/img/logo_ex.png' alt='logo'>
+						<img src='layout/img/logo.png' alt='logo'>
 					
 				</div>
 			</a>

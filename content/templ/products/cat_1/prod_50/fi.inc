@@ -1,0 +1,1 @@
+VITRIINIKAAPPI, my&ouml;h&auml;iskustavilainen 17/1800-vaihde, kaksiosanen, yl&auml;osassa lasiruutuja ja hyllyj&auml;, alaosassa ovien takana hyllyj&auml;. Kork. n. 240 cm, lev: 130 cm. (Aito vanha vitriinikaappi, ei my&ouml;hemmin tehty viritys). 9000 e.&nbsp;
