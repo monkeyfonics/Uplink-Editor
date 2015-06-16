@@ -51,6 +51,9 @@
 			    </div>
 			</a>
 			
+			<div style='float:right; padding-top: 15px; padding-right: 5px;'>
+				<div class='fb-like' data-href='https://www.facebook.com/schulmanantiques' data-width='The pixel width of the plugin' data-height='The pixel height of the plugin' data-colorscheme='light' data-layout='button_count' data-action='like' data-show-faces='false' data-send='false'></div>
+			</div>
 		</div>
 		";
 	

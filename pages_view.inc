@@ -31,11 +31,48 @@ if (file_exists($dir.$item."/".$loc.".inc")) {
 	$content =  "Empty";
 }
 
-echo "<div>
+/*collage test*/
+if ($item = "page_1") {
+	echo "<div>
+		<div class='text firstpagediv'>
+			$content
+		</div>
+	</div>";
+	
+	echo "
+		<div class='collage_cont'>
+			<div class='coll_div'>
+				<div class='coll_item'>
+				 	<img src='content/images/collage/1.png' alt='coll'/>
+				</div>
+			</div>
+			<div class='coll_div'>
+				<div class='coll_item'>
+				 	<img src='content/images/collage/2.png' alt='coll'/>
+				</div>
+			</div>
+			<div class='coll_div'>
+				<div class='coll_item'>
+				 	<img src='content/images/collage/2.png' alt='coll'/>
+				</div>
+			</div>
+			<div class='coll_div'>
+				<div class='coll_item'>
+				 	<img src='content/images/collage/1.png' alt='coll'/>
+				</div>
+			</div>
+		</div>
+	";
+	
+} else {
+	
+	echo "<div>
 		<div class='text'>
 			$content
 		</div>
-";
+	</div>";
+}
+/*collage test end*/
 
-echo "</div>";
+
 ?>

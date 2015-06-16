@@ -10,10 +10,12 @@ echo "
 <html>
 <head>
 	<link href='layout/style.css' rel='stylesheet'>
-	<link href='layout/style_small.css' rel='stylesheet' type='text/css' media='screen and (max-device-width: 800px)' />
+	<link href='layout/style_small.css' rel='stylesheet' type='text/css' media='screen and (max-device-width: 990px)' />
 	<title>$websitename</title>
 	<link rel='shortcut icon' href='layout/img/icon.png' type='image/x-icon' />
 	
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	
 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'></script>
 	<script src='js/main.js'></script>

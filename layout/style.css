@@ -44,13 +44,43 @@ div.topcontainer {
 	min-height: 50px;
 	margin: auto;
 	overflow:hidden;
-	background: #2f5326;
+	background: #B9BCB7 url('img/green_gobbler.png'); /* fallback */
+	
 	
 }
-div.logo {
-	float: left;
+
+.logo {
+	display: block;
+	width: 70%;
+	/*border: 1px solid #000;*/
 	padding: 10px;
+	margin: auto;
 	margin-left: 20px;
+	overflow: hidden;
+}
+.logoandtext {
+	float: right;
+	width: 100%;
+	height: 130px;
+}
+.logoandtext img {
+	float: right;
+	margin: 10px;
+	height: 75px;
+}
+.logotext {
+	float: right;
+	font-family: 'Lobster Two', cursive;
+	font-size: 180%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+.logo a {
+	color: #A63228;
+}
+.logo a:hover {
+	color: #A63228;
 }
 div.lang {
 	float: right;
@@ -73,34 +103,32 @@ div.admin {
 div.menu_1_cont {
 	width: 100%;
 	margin: auto;
-	background: #fff; /* fallback */
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dadada)); /* Saf4+, Chrome */
-	background: -webkit-linear-gradient(top, #fff, #dadada); /* Chrome 10+, Saf5.1+ */
-	background: -moz-linear-gradient(top, #fff, #dadada); /* FF3.6+ */
-	background: -ms-linear-gradient(top, #fff, #dadada); /* IE10 */
-	background: -o-linear-gradient(top, #fff, #dadada); /* Opera 11.10+ */
-	background: linear-gradient(top, #fff, #dadada); /* W3C */
-	border-top: 1px solid #f2d740;
-	border-bottom: 1px solid #f2d740;
+	background: rgba(205,205,205,0.5); /* fallback */
+	border-top: 1px solid rgba(166,40,50,0.9);
+	border-bottom: 2px solid rgba(166,40,50,0.9);
 	overflow:hidden;
 	padding-left: 10px;
 }
 div.menu_1_item {
 	float: left;
-	padding: 15px;
+	padding: 5px;
 	font-size: 130%;
-	color: #000;
-	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #A63228;
+	margin: 10px;
+	
 }
 div.menu_1_item:hover {
+	margin-bottom: -2px;
+	border-bottom: 2px solid rgba(172,122,0,0.9);
 	
-	background: #acacac;
-	color: #633f9e;
+	color: rgba(172,122,0,0.9);
 }
 /* path */
 div.path {
 	background: #f0f0f0;
-	color: #CD842A;
+	color: #A63228;
 	font-size: 130%;
 	margin: -8px;
 	margin-top: 0px;
@@ -120,16 +148,43 @@ div.content {
 	margin: auto;
 	background: #f9f9f9;
 	overflow:hidden;
-	padding: 8px;
+	padding: 0px;
 }
-
+/* collage*/
+.firstpagediv {
+	float: left;
+	width: 48%;
+}
+div.collage_cont {
+	background: #f0f0f0;
+	overflow:hidden;
+	padding: 0px;
+	width: 48%;
+	float: right;
+}
+.coll_div {
+	width:100%;
+	float: left;
+	overflow:hidden;
+}
+.coll_item {
+	background: #000;
+	padding: 0px;
+	
+}
+.coll_item img {
+	display: block;
+	height: 300px;
+	width: 500px;
+	margin: auto;
+}
 /* generic tags */
 a {
 	text-decoration: none;
-	color: #c3a33f;
+	color: #A63228;
 }
 a:hover {
-	color: #C62020;
+	color: rgba(172,122,0,0.9);
 }
 img {
 	border: 0;
@@ -143,21 +198,25 @@ span.header {
 }
 /* holds content of items */
 .text {
-	min-height: 100px;
+	min-height: 25px;
 	padding: 15px;
-	
+	color: #717171;
 }
+
 .text img {
 	padding: 10px;
 }
 /*products */
+.prod_padd {
+	margin: 0px;
+}
 .prod_cont {
 	width: 33.3%;
 	margin: auto;
 	float: left;
 }
 .prod_list {
-	background: #fff;
+	
 	opacity: 0.8;
 	float: left;
 	border-radius: 8px;
@@ -166,50 +225,48 @@ span.header {
 	overflow: hidden;
 }
 .prod_wrap {
-	margin-bottom: 35px;
-	background: #f0f0f0;
-	padding: 5px;
-	border: 1px solid #BBC2C4;
-	border-radius: 8px 8px 8px 8px;
+	margin-bottom: 15px;
+	padding: 10px;
+	
 }
 .cat_spec {
 	min-height: 180px;
-	border: 1px solid #CD842A;
+	border: 1px solid rgba(187,190,185,0.4);
+	background: rgba(187,190,185,0.1);
 	padding-bottom: 10px;
 	width: 96%;
 	margin: 2%;
 }
 .prod_spec {
-	
+	border-radius: 0px;
 	width: 98%;
 	
 }
 div.imgloop {
 	float: left;
-	width: 48%;
-	min-height: 75px;
-	border: 1px solid #f0f0f0;
+	width: 100%;
+	min-height: 120px;
+	
 }
 div.imgloop img {
-	max-height: 65px;
-	max-width: 65px;
+	max-height: 125px;
+	max-width: 125px;
 }
 
 span.prod_head {
 	display: block;
-	background: #f0f0f0;
-	border-bottom: 1px solid #CD842A;
-	border-radius: 8px 8px 0px 0px;
 	text-align: center;
 	width: 100%;
-	font-size: 130%;
+	font-size: 140%;
 	margin: auto;
 	padding: 5px;
-	color: #CD842A;
+	color: #A63228;
 }
 span.prod_head_spec {
-	font-size: 160%;
+	font-size: 170%;
 	text-align: left;
+	border-bottom: 2px solid #A63228;
+	border-radius: 0px 0px 0px 0px;
 }
 
 
@@ -218,10 +275,9 @@ div.img_cont {
 	margin-left: -5px;
 	margin-bottom: 10px;
 	padding: 5px;
-	background: #f0f0f0;
-	border-top: 1px solid #BBC2C4;
-	border-bottom: 1px solid #BBC2C4;
-	width: 100%;
+	
+	
+	width: 98%;
 	min-height: 85px;
 	overflow: hidden;
 }
@@ -251,13 +307,13 @@ img.thumb_big {
 }
 .fullbutton {
 	font-size: 200%;
-	background: #CD842A; 
+	background: #B9BCB7 url('img/green_gobbler.png'); /* fallback */
 	text-align: center;
 	margin: 5px;
 	padding: 5px;
 }
 .fullbutton span {
-	color: #fff;
+	color: #A63228;
 }
 .fullbutton span.left {
 	float: left;
@@ -282,8 +338,12 @@ img.img_big {
 	
 }
 /* contact */
+.contact_cont {
+	padding: 15px;
+}
 div.map_text {
 	width: 50%;
+	color: #717171;
 }
 div.map_pad {
 	padding: 6px;
@@ -310,12 +370,12 @@ div.footer {
 	left: 0px;
 	right: 0px;
 	height: 30px;
-	background: #28639E;
+	background: #B4B8B3;
 	text-align: center;
 	border-top: 1px solid #173C60;
 	margin-top: 15px;
 }
 div.footer a {
-	color: #fff;
+	color: #70746F;
 	
 }

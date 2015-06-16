@@ -96,7 +96,7 @@ echo "<div>
 				<a href='$lastpath'>
     				<span class='left'>Back</span>
     			</a>
-    			<a href='index.php?template=".$section."_view&section=$section&cat=$cat&item=$item'>
+    			<a href='index.php?template=".$section."_list&section=$section&cat=$cat#$item'>
     				<span class='middle'>Close</span>
     			</a>
     			<a href='$nextpath'>
@@ -104,7 +104,7 @@ echo "<div>
     			</a>
     			
     		</div>
-		</a>
+		
 	";
 		
 		

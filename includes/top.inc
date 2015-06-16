@@ -2,13 +2,7 @@
 $loc = $_SESSION['lang'];
 	echo "
 		<div class='topcontainer'>
-			<a href='$sitepath'>
-				<div class='logo'>
-					
-						<img src='layout/img/logo.png' alt='logo'>
-					
-				</div>
-			</a>
+			
 		
 			
 			<div class='admin'>
@@ -43,6 +37,21 @@ $loc = $_SESSION['lang'];
 		echo "		
 				</form>	
 			</div>
+			
+			<div class='logo'>
+			<a href='$sitepath'>
+				
+					<div class='logoandtext'>
+						<img src='layout/img/delys.png' alt='logo'>
+						<span class='logotext'>Schulmanin&nbsp;Taideliike<br/>Schulmans&nbsp;Konsthandel</span>
+						<img src='layout/img/delys.png' alt='logo'>
+					</div>
+				
+			</a>
+			</div>
+		";
+		include("includes/menu.inc");
+		echo "	
 			
 		</div>
 	

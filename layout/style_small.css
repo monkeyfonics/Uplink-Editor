@@ -17,8 +17,8 @@ div.ribbon {
 	border-radius: 0px 0px 8px 8px;
 }
 div.menu_1_item {
-	
-	font-size: 160%;
+	padding: 20px;
+	font-size: 180%;
 	
 }
 /* path */
@@ -29,18 +29,21 @@ div.path {
 }
 
 /*products */
-div.cat_list {
-	
-	border: 3px solid #CD842A;
-	border-radius: 8px;
-	margin: 6px;
-	
-}
+
 
 div.prod_list {
 	
-	border: 2px solid #CD842A;
-	border-radius: 8px;
-	margin: 6px;
 	
+}
+span.prod_head_spec {
+	font-size: 200%;
+	
+}
+/*contact*/
+div.map_text {
+	width:100%;
+}
+div.map_cont {
+	float: right;
+	width: 100%;
 }

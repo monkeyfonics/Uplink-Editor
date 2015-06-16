@@ -36,7 +36,7 @@ foreach (glob($dir.'*', GLOB_ONLYDIR) as $category) {
     			<div>
     				";
 					/*amount of thumbs */
-					for ($i = 0; $i <= 3; $i++) {
+					for ($i = 0; $i <= 0; $i++) {
 						echo "
 							
 								<div class='imgloop'>

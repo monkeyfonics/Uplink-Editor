@@ -4,7 +4,7 @@ include("includes/header.inc");
 
 echo "<div class='ribbon'>";
 include("includes/top.inc");
-include("includes/menu.inc");
+
 
 if (!$_GET[section]) {
 	$_GET[section] = "pages";

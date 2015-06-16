@@ -15,7 +15,7 @@ if (!$cat) {
 
 $catname = file_get_contents($dir.'def_'.$loc.'.head', NULL, NULL, 0, 45);
 
-echo "<div>
+echo "<div class='prod_padd'>
 ";
 		/* path stuff */
 		include("includes/path.inc");
@@ -62,7 +62,7 @@ foreach ($filelist as $fitem => $fheader) {
     	<div class='prod_wrap'>
     	
 			<div class='prod_list prod_spec'>
-    			<span class='prod_head prod_head_spec'>$fheader</span>
+    			<span class='prod_head prod_head_spec'><a name='$fitem'></a>$fheader</span>
     			
     				";
 					

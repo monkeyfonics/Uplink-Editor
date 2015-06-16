@@ -38,7 +38,7 @@ if (file_exists($dir.$item."/".$loc.".map")) {
 
 
 echo "
-		<div>
+		<div class='contact_cont'>
 			<div class='map_pad'>
 			
 ";
